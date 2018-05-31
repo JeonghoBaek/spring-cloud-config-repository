@@ -26,12 +26,12 @@ logging:
   level:
     org.springframework.web: error
     com.conects.billing: debug
-    jdbc.sqlonly: off
+    jdbc.sqlonly: error
     jdbc.resultsettable: info
-    jdbc.audit: off
+    jdbc.audit: error
     jdbc.sqltiming: info
-    jdbc.resultset: off
-    jdbc.connection: off
+    jdbc.resultset: error
+    jdbc.connection: error
 
 datasource:
   master:
